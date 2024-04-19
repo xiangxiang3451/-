@@ -1,0 +1,10 @@
+var int a, b, result;
+
+input(a);
+input(b);
+
+result = a + b;
+result = result*a+b*5-(30/3)+(40+(5-4)*4);
+result = result-10;
+
+output(result);

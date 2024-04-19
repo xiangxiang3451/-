@@ -1,0 +1,38 @@
+var int p,x,y,z;
+x=0;
+y=1;
+p=0;
+mas a[100];
+while(p!100)
+{
+	a[p]=100-p;
+	p=p+1;
+	output(a[p-1]);
+}
+
+
+while(x!99)
+{
+	if(a[x]>a[y])
+	{
+		z=a[y];
+		a[y]=a[x];
+		a[x]=z;
+		if(x!0)
+		{
+			x=x-1;
+			y=y-1;
+		}
+	}
+	else
+	{
+		x=x+1;
+		y=y+1;
+	}
+}
+p=0;
+while(p!100)
+{
+	output(a[p]);
+	p=p+1;
+}

@@ -1,0 +1,23 @@
+var int D, Dx, Dy, x, y;
+ D = a * e - b * d;
+ Dx = c * e - f * d;
+    Dy = a * f - d * c;
+    x = Dx / D;
+    y = Dy / D;
+output(x);
+    output(y);
+a= 2;
+b= 1;
+c= 4;
+d= 3;
+e= 2;
+f= 7;
+/*int i = 1;
+	char* choice[6]{ (char*)"comparing.txt" ,(char*)"order.txt" ,(char*)"massive.txt" ,(char*)"actions.txt" ,(char*)"broken.txt", (char*)"test.txt" };
+	cout << "Files" << endl;
+	for (auto a : choice)
+	{
+		cout << i++ << " " << a << endl;
+	}
+	cout << "Select file: ";
+	cin >> i;*/

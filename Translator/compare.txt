@@ -1,0 +1,19 @@
+var int a, b;
+
+input(a);
+input(b);
+
+while(a?b)
+{
+	if(a<b)
+	{
+        	output(b);
+    	}
+	else
+	{
+         	output(a);
+		output(b);	
+		b = b + 3;
+	}
+}
+

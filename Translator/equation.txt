@@ -1,0 +1,27 @@
+var int a, b, c, d, e, f, Del, Dx, Dy, x, y, s;
+input(a);
+input(b);
+input(c);
+input(d);
+input(e);
+input(f);
+Del = a * e - b * d;
+Dx = c * e - f * b;
+Dy = a * f - d * c;
+s=Dx +Dy;
+if (Del:0) {
+        if (s:0){
+        output(Del);}   
+        else
+        {
+        output(Del);
+        output(Dx);
+        output(Dy);}
+            
+    }
+    else {
+        x = Dx / Del;
+        y = Dy / Del;
+        output(x);
+        output(y);
+    }

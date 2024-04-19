@@ -1,0 +1,13 @@
+var int n, i;
+mas a[20];
+
+input(n);
+output(n);
+i=0;
+while(i<n)
+{
+    a[i]=i;
+    output(a[i]);
+    i=i+1;
+}
+

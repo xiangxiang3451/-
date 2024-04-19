@@ -1,0 +1,5 @@
+﻿  Translator.cpp
+E:\Desktop\Translator\Translator\Translator.cpp(989,6): warning C4101: “a”: 未引用的局部变量
+E:\Desktop\Translator\Translator\Translator.cpp(156): warning C4715: “LexicalAnalys”: 不是所有的控件路径都返回值
+E:\Desktop\Translator\Translator\Translator.cpp(968): warning C4715: “operand”: 不是所有的控件路径都返回值
+  Translator.vcxproj -> E:\Desktop\Translator\Debug\Translator.exe
